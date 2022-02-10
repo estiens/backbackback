@@ -15,5 +15,5 @@ options '*' do
 end
 
 get '/' do
-  { message: 'hello', meta: ENV['SPECIAL_META'] }.to_json
+  { message: 'this is the review app 1 branch', meta: ENV['SPECIAL_META'] }.to_json
 end
